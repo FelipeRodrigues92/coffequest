@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9297980C5300888E29FC313B /* Pods_CoffeQuest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2B3163867B1D8068B0228D /* Pods_CoffeQuest.framework */; };
+		AEC5AA711F32E2AD00FBFA45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC5AA701F32E2AD00FBFA45 /* AppDelegate.swift */; };
+		AEC5AA731F32E2AD00FBFA45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC5AA721F32E2AD00FBFA45 /* ViewController.swift */; };
+		AEC5AA761F32E2AD00FBFA45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC5AA741F32E2AD00FBFA45 /* Main.storyboard */; };
+		AEC5AA781F32E2AD00FBFA45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC5AA771F32E2AD00FBFA45 /* Assets.xcassets */; };
+		AEC5AA7B1F32E2AD00FBFA45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC5AA791F32E2AD00FBFA45 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E4D133D3ECEAE0DE9BBCDE9 /* Pods-CoffeQuest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeQuest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoffeQuest/Pods-CoffeQuest.debug.xcconfig"; sourceTree = "<group>"; };
+		5C2B3163867B1D8068B0228D /* Pods_CoffeQuest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeQuest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC5AA6D1F32E2AD00FBFA45 /* CoffeQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC5AA701F32E2AD00FBFA45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEC5AA721F32E2AD00FBFA45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEC5AA751F32E2AD00FBFA45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEC5AA771F32E2AD00FBFA45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEC5AA7A1F32E2AD00FBFA45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEC5AA7C1F32E2AD00FBFA45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4A6916497B966B486DEF58 /* Pods-CoffeQuest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeQuest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoffeQuest/Pods-CoffeQuest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEC5AA6A1F32E2AD00FBFA45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9297980C5300888E29FC313B /* Pods_CoffeQuest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D0A7FD8652C8C76762DD9B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E4D133D3ECEAE0DE9BBCDE9 /* Pods-CoffeQuest.debug.xcconfig */,
+				AF4A6916497B966B486DEF58 /* Pods-CoffeQuest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AEC5AA641F32E2AC00FBFA45 = {
+			isa = PBXGroup;
+			children = (
+				AEC5AA6F1F32E2AD00FBFA45 /* CoffeQuest */,
+				AEC5AA6E1F32E2AD00FBFA45 /* Products */,
+				3D0A7FD8652C8C76762DD9B1 /* Pods */,
+				F61C8014F07A05CE075C6D15 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AEC5AA6E1F32E2AD00FBFA45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEC5AA6D1F32E2AD00FBFA45 /* CoffeQuest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEC5AA6F1F32E2AD00FBFA45 /* CoffeQuest */ = {
+			isa = PBXGroup;
+			children = (
+				AEC5AA701F32E2AD00FBFA45 /* AppDelegate.swift */,
+				AEC5AA721F32E2AD00FBFA45 /* ViewController.swift */,
+				AEC5AA741F32E2AD00FBFA45 /* Main.storyboard */,
+				AEC5AA771F32E2AD00FBFA45 /* Assets.xcassets */,
+				AEC5AA791F32E2AD00FBFA45 /* LaunchScreen.storyboard */,
+				AEC5AA7C1F32E2AD00FBFA45 /* Info.plist */,
+			);
+			path = CoffeQuest;
+			sourceTree = "<group>";
+		};
+		F61C8014F07A05CE075C6D15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C2B3163867B1D8068B0228D /* Pods_CoffeQuest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEC5AA6C1F32E2AD00FBFA45 /* CoffeQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC5AA7F1F32E2AD00FBFA45 /* Build configuration list for PBXNativeTarget "CoffeQuest" */;
+			buildPhases = (
+				E335DE17D323745F6B249F53 /* [CP] Check Pods Manifest.lock */,
+				AEC5AA691F32E2AD00FBFA45 /* Sources */,
+				AEC5AA6A1F32E2AD00FBFA45 /* Frameworks */,
+				AEC5AA6B1F32E2AD00FBFA45 /* Resources */,
+				D23DCEEBF73A861E61CFB8B7 /* [CP] Embed Pods Frameworks */,
+				6AE8662F98B9405270E6C1CF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoffeQuest;
+			productName = CoffeQuest;
+			productReference = AEC5AA6D1F32E2AD00FBFA45 /* CoffeQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEC5AA651F32E2AD00FBFA45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = BEPiD;
+				TargetAttributes = {
+					AEC5AA6C1F32E2AD00FBFA45 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6VJ53X9FA6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AEC5AA681F32E2AD00FBFA45 /* Build configuration list for PBXProject "CoffeQuest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEC5AA641F32E2AC00FBFA45;
+			productRefGroup = AEC5AA6E1F32E2AD00FBFA45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEC5AA6C1F32E2AD00FBFA45 /* CoffeQuest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEC5AA6B1F32E2AD00FBFA45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC5AA7B1F32E2AD00FBFA45 /* LaunchScreen.storyboard in Resources */,
+				AEC5AA781F32E2AD00FBFA45 /* Assets.xcassets in Resources */,
+				AEC5AA761F32E2AD00FBFA45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6AE8662F98B9405270E6C1CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoffeQuest/Pods-CoffeQuest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D23DCEEBF73A861E61CFB8B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoffeQuest/Pods-CoffeQuest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E335DE17D323745F6B249F53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEC5AA691F32E2AD00FBFA45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC5AA731F32E2AD00FBFA45 /* ViewController.swift in Sources */,
+				AEC5AA711F32E2AD00FBFA45 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEC5AA741F32E2AD00FBFA45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEC5AA751F32E2AD00FBFA45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEC5AA791F32E2AD00FBFA45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEC5AA7A1F32E2AD00FBFA45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEC5AA7D1F32E2AD00FBFA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEC5AA7E1F32E2AD00FBFA45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEC5AA801F32E2AD00FBFA45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E4D133D3ECEAE0DE9BBCDE9 /* Pods-CoffeQuest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6VJ53X9FA6;
+				INFOPLIST_FILE = CoffeQuest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepid.CoffeQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AEC5AA811F32E2AD00FBFA45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF4A6916497B966B486DEF58 /* Pods-CoffeQuest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6VJ53X9FA6;
+				INFOPLIST_FILE = CoffeQuest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepid.CoffeQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEC5AA681F32E2AD00FBFA45 /* Build configuration list for PBXProject "CoffeQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC5AA7D1F32E2AD00FBFA45 /* Debug */,
+				AEC5AA7E1F32E2AD00FBFA45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC5AA7F1F32E2AD00FBFA45 /* Build configuration list for PBXNativeTarget "CoffeQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC5AA801F32E2AD00FBFA45 /* Debug */,
+				AEC5AA811F32E2AD00FBFA45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEC5AA651F32E2AD00FBFA45 /* Project object */;
+}
